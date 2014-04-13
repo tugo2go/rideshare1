@@ -1,11 +1,11 @@
 <p id="notice"><%= notice %></p>
-
+<center>
 <p>
   <strong>Fullname:</strong>
   <%= @trip.fullname %>
 </p>
 
-<p>
+
   <strong>Phonenumber:</strong>
   <%= @trip.phonenumber %>
 </p>
@@ -31,4 +31,5 @@
 </p>
 
 <%= link_to 'Edit', edit_trip_path(@trip) %> |
-<%= link_to 'Back', trips_path %>
+<%= link_to 'Back', root_path %>
+></center>
