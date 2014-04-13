@@ -20,7 +20,7 @@ h1 {
 .container1 {
 	background-image: url(http://i62.tinypic.com/v3q3cw.jpg);
 	background-size: cover;
-	height: 700px;
+	height: 750px;
 	margin: 0 auto;
 	position: relative;
 	top: -25px;
@@ -30,4 +30,26 @@ h1 {
 	top: 150px;
 }
 
+.tripbkg {
+	background-image: url(http://i60.tinypic.com/2qioeb8.jpg);
+	background-size: cover;
+	height: 750px;
+	margin: 0 auto;
+	position: relative;
+	top: -25px;
+}
 
+.browsetrip {
+	position: relative;
+	top: 50px;
+}
+
+th {
+	color: black;
+	font-weight: bolder;
+}
+
+td {
+	color: black;
+	font-weight: bold;
+}
