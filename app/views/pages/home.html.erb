@@ -1,0 +1,16 @@
+<div class="container1">	
+	<div class="join center">
+	<h1>Join RideShare</h1>
+
+	<% if user_signed_in? %>
+		<%= link_to "Providing Ride", new_trip_path, :class => "btn btn-default btn-lg" %>
+			<%= link_to "Need a Ride", trips_path, :class => "btn btn-primary btn-lg" %>
+	<% else %>
+		<p>	
+			<%= link_to "Sign In", new_user_session_path, :class => "btn btn-default btn-lg" %>
+			<%= link_to "Register", new_user_registration_path, :class => "btn btn-primary btn-lg" %>
+		</p>
+	<% end %>
+</div>
+</div>
+

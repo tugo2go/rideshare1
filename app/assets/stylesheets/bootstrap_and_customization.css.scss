@@ -1,0 +1,33 @@
+$navbar-default-bg: #2980b9;
+$navbar-default-link-color: #ecf0f1;
+$btn-default-bg: #e74c3c;
+$brand-primary: #e74c3c;
+
+@import 'bootstrap';
+
+h1 {
+	font-size: 48px;
+}
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.container1 {
+	background-image: url(http://i62.tinypic.com/v3q3cw.jpg);
+	background-size: cover;
+	height: 700px;
+	margin: 0 auto;
+	position: relative;
+	top: -25px;
+}
+.join {
+	position: relative;
+	top: 150px;
+}
+
+
